@@ -10,8 +10,14 @@ speed = 0;
 /// @DnDSaveInfo : "soundid" "sd_crash"
 audio_play_sound(sd_crash, 0, 0, 1.0, undefined, 1.0);
 
-/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDAction : YoYo Games.Particles.Effect
 /// @DnDVersion : 1
-/// @DnDHash : 5505014B
-/// @DnDArgument : "steps" "3"
-alarm_set(0, 3);
+/// @DnDHash : 3A4FD7FA
+/// @DnDArgument : "x" "53"
+/// @DnDArgument : "x_relative" "1"
+/// @DnDArgument : "y" "25"
+/// @DnDArgument : "y_relative" "1"
+/// @DnDArgument : "where" "1"
+/// @DnDArgument : "size" "2"
+/// @DnDArgument : "color" "$FF0077FF"
+effect_create_above(0, x + 53, y + 25, 2, $FF0077FF & $ffffff);

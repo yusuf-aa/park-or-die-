@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_car_parked",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_car","path":"objects/obj_car/obj_car.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_crashed_car",
+  "eventList":[],
   "managed":true,
-  "name":"Obj_car_parked",
+  "name":"obj_crashed_car",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_car_parked",
-    "path":"sprites/spr_car_parked/spr_car_parked.yy",
+    "name":"spr_car_crashed",
+    "path":"sprites/spr_car_crashed/spr_car_crashed.yy",
   },
   "spriteMaskId":null,
   "visible":true,
